@@ -25,7 +25,7 @@ class VkidaoMod(loader.Module):
 		author, content = await message.get_sender(), message.message;
 
 		#	virus log	#
-		if author.id in data.iris_ids and content.find("クリス, начало отпускать, пора вкинуться😈") != -1:
+		if author.id in data.iris_ids and content.find("クリス, начало отпускать, пора вкинуться - /vkid 😈") != -1:
 			await message.reply("Вкид")
 
 		#	command handle	#	
